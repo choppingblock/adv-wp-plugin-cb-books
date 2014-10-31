@@ -53,7 +53,7 @@ function create_cb_books_type() {
 			'cb_book_tag',
 			'cb_book',
 			array(
-				'label' => __( 'Tags' ),
+				'label' => __( 'Book Tags' ),
 				'rewrite' => array( 'slug' => 'cb-book-tag' )			
 			)
 		);	
@@ -63,7 +63,7 @@ function create_cb_books_type() {
 			'cb_book_category',
 			'cb_book',
 			array(
-				'label' => __( 'Category' ),
+				'label' => __( 'Book Categories' ),
 				'hierarchical' => true,
 				'rewrite' => array( 'slug' => 'cb-book-category' )			
 			)
